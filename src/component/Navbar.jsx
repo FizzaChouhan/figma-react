@@ -3,9 +3,10 @@ import React from 'react'
 const Navbar = () => {
   return (
   <>
-  <nav className='flex justify-between items-center  ...'>
-    <img src="public/Logo.png" alt="logo" />
-    <ul className='flex justify-around gap-4'>
+  <nav className='flex justify-between items-center  md lg ...'>
+    <img src="public/Logo.png" alt="logo" className='w-32'/>
+    <ul className='flex justify-around gap-4 hidden md:inline-flex
+'>
         <li><a href="#" className='hover:text-violet-500'>Home</a></li>
         <li><a href="#" className='hover:text-violet-500'>Portfolio</a></li>
         <li><a href="#" className='hover:text-violet-500'>About me</a></li>
